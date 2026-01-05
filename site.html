@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Diretório de Restaurantes</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+    }
+
+    header {
+      background: #0284c7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #0284c7;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background: #e0f2fe;
+    }
+
+    a {
+      color: #0284c7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Diretório de Restaurantes</h1>
+  <p>Lista de restaurantes com contactos, horários e menus</p>
+</header>
+
+<main>
+
+  <!-- LISTA DE RESTAURANTES -->
+  <h2>🍽️ Restaurantes Disponíveis</h2>
+
+  <ul>
+    <li><a href="#praca">Restaurante da Praça</a></li>
+    <li><a href="#rio">Sabores do Rio</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- RESTAURANTE 1 -->
+  <section id="praca">
+    <h2>Restaurante da Praça</h2>
+
+    <p><strong>Endereço:</strong> Rua Central 10, Lisboa</p>
+
+    <!-- HIPERLIGAÇÕES -->
+    <p>
+      📞 <a href="tel:210 991 792">210 991 792</a><br>
+      ✉️ <a href="mailto:contacto@pracarestaurante.pt">contacto@pracarestaurante.pt</a><br>
+      📍 <a href="https://www.google.com/maps?q=38.71667,-9.1399" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+
+    <!-- TABELA -->
+    <h3>Horário de Funcionamento</h3>
+    <table>
+      <tr>
+        <th>Dia</th>
+        <th>Horário</th>
+      </tr>
+      <tr>
+        <td>Segunda a Sexta</td>
+        <td>12:00 - 22:00</td>
+      </tr>
+      <tr>
+        <td>Sábado</td>
+        <td>12:00 - 01:00</td>
+      </tr>
+      <tr>
+        <td>Domingo</td>
+        <td>Encerrado</td>
+      </tr>
+    </table>
+
+    <!-- LISTA -->
+    <h3>Menu</h3>
+    <ul>
+      <li>Salada mista</li>
+      <li>Risotto de cogumelos</li>
+      <li>Tarte de amêndoa</li>
+    </ul>
+
+    <a href="#topo">⬆ Voltar ao topo</a>
+  </section>
+
+  <hr>
+
+  <!-- RESTAURANTE 2 -->
+  <section id="rio">
+    <h2>Sol Brasil</h2>
+
+    <p><strong>Endereço:</strong> Avenida do Rio 33, Lisboa</p>
+
+    <p>
+	
+    <a href="https://www.google.com/maps?q=38.7071,-9.1355" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+
+    <h3>Especialidades</h3>
+    <ol>
+      <li>Dourada grelhada</li>
+      <li>Polvo à lagareiro</li>
+      <li>Amêijoas à Bulhão Pato</li>
+    </ol>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 – Diretório de Restaurantes</p>
+</footer>
+
+</body>
+</html>
